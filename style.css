@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@font-face {
+    font-family: 'PF Din Text';
+    src: url('../fonts/PFDinTextUniversal-Bold.eot');
+    src: url('../fonts/PFDinTextUniversal-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextUniversal-Bold.woff2') format('woff2'),
+        url('../fonts/PFDinTextUniversal-Bold.woff') format('woff'),
+        url('../fonts/PFDinTextUniversal-Bold.ttf') format('truetype'),
+        url('../fonts/PFDinTextUniversal-Bold.svg#PFDinTextUniversal-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text';
+    src: url('../fonts/PFDinTextUniversal-Light.eot');
+    src: url('../fonts/PFDinTextUniversal-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextUniversal-Light.woff2') format('woff2'),
+        url('../fonts/PFDinTextUniversal-Light.woff') format('woff'),
+        url('../fonts/PFDinTextUniversal-Light.ttf') format('truetype'),
+        url('../fonts/PFDinTextUniversal-Light.svg#PFDinTextUniversal-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text';
+    src: url('../fonts/PFDinTextUniversal.eot');
+    src: url('../fonts/PFDinTextUniversal.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextUniversal.woff2') format('woff2'),
+        url('../fonts/PFDinTextUniversal.woff') format('woff'),
+        url('../fonts/PFDinTextUniversal.ttf') format('truetype'),
+        url('../fonts/PFDinTextUniversal.svg#PFDinTextUniversal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text';
+    src: url('../fonts/PFDinTextUniversal-Medium.eot');
+    src: url('../fonts/PFDinTextUniversal-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextUniversal-Medium.woff2') format('woff2'),
+        url('../fonts/PFDinTextUniversal-Medium.woff') format('woff'),
+        url('../fonts/PFDinTextUniversal-Medium.ttf') format('truetype'),
+        url('../fonts/PFDinTextUniversal-Medium.svg#PFDinTextUniversal-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTPro-Book.eot');
+    src: url('../fonts/AvenirLTPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTPro-Book.woff2') format('woff2'),
+        url('../fonts/AvenirLTPro-Book.woff') format('woff'),
+        url('../fonts/AvenirLTPro-Book.ttf') format('truetype'),
+        url('../fonts/AvenirLTPro-Book.svg#AvenirLTPro-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTPro-Medium.eot');
+    src: url('../fonts/AvenirLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTPro-Medium.woff2') format('woff2'),
+        url('../fonts/AvenirLTPro-Medium.woff') format('woff'),
+        url('../fonts/AvenirLTPro-Medium.ttf') format('truetype'),
+        url('../fonts/AvenirLTPro-Medium.svg#AvenirLTPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTPro-Black.eot');
+    src: url('../fonts/AvenirLTPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTPro-Black.woff2') format('woff2'),
+        url('../fonts/AvenirLTPro-Black.woff') format('woff'),
+        url('../fonts/AvenirLTPro-Black.ttf') format('truetype'),
+        url('../fonts/AvenirLTPro-Black.svg#AvenirLTPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTPro-Heavy.eot');
+    src: url('../fonts/AvenirLTPro-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTPro-Heavy.woff2') format('woff2'),
+        url('../fonts/AvenirLTPro-Heavy.woff') format('woff'),
+        url('../fonts/AvenirLTPro-Heavy.ttf') format('truetype'),
+        url('../fonts/AvenirLTPro-Heavy.svg#AvenirLTPro-Heavy') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTPro-Roman.eot');
+    src: url('../fonts/AvenirLTPro-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLTPro-Roman.woff2') format('woff2'),
+        url('../fonts/AvenirLTPro-Roman.woff') format('woff'),
+        url('../fonts/AvenirLTPro-Roman.ttf') format('truetype'),
+        url('../fonts/AvenirLTPro-Roman.svg#AvenirLTPro-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body
+{
+    background: #f0f0f0;
+    color: #000;
+    font-family: 'Avenir';
+}
+
+h1,h2,h3,h4,h5,h6,p,figure,ul
+{
+    margin: 0;
+}
+
+.page-header
+{
+    padding: 2rem;
+}
+.page-header .logo
+{
+    width: 60%;
+}
+.top-red-strip
+{
+    background: #CA0005;
+    padding: 2rem;
+    color:#fff;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+}
+.top-red-strip p
+{
+    font-size: 32px;
+}
+.top-red-strip .four-line-left
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+
+.top-red-strip .four-line-right
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    right: 15px;
+}
+.second-section
+{
+    background: #fff;
+    padding: 2rem 3rem 2rem 6rem;
+}
+.second-left-content
+{
+    position: relative;
+    color: #1A1818;
+    font-size: 22px;
+    border-left: 1px solid #ddd;
+    padding-left: 15px;
+}
+.second-left-content span
+{
+    display: block;
+}
+.second-left-content h4
+{
+    font-size: 22px;
+    line-height: 34px;
+}
+.second-left-content h3
+{
+    position: absolute;
+    left: -105px;
+    top: 60px;
+    text-align: center;
+    transform: rotate(-90deg);
+    line-height: 24px;
+    font-size: 22px;
+}
+.second-left-content ul li
+{
+    display: inline-block;
+    width: 49%;
+}
+.second-right-content
+{
+    border-left:1px solid #ddd;
+    padding-left: 1rem;
+}
+.second-right-content ul
+{
+    padding:10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.second-right-content ul li
+{
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 22px;
+}
+.delivery-block
+{
+    margin-top: 1rem;
+}
+.delivery-block li
+{
+    font-size: 22px;
+    padding-right: 5rem !important;
+}
+.delivery-block li img
+{
+    width: 24px;
+    position: relative;
+    top: -5px;
+    margin-right: 3px;
+}
+.delivery-block li:last-child
+{
+    padding: 0;
+    margin-top: 10px;
+}
+.truck-img
+{
+    margin: 15px 25px 0 25px;
+}
+.black-strip
+{
+    background: #1A1818;
+    color: #fff;
+    padding:1rem;
+    font-size: 24px;
+    text-align: center;
+}
+.black-strip li
+{
+    display: inline-block;
+    padding: 0 8rem;
+}
+.order-section 
+{
+    padding: 80px 40px;
+}
+.table-title
+{
+    font-family: 'PF Din Text';
+    color: #3F426F;
+    font-size: 52px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.order-table-wrap
+{
+    background: #3F446E;
+    border-radius: 30px;
+    box-shadow: 0 10px 25px -5px rgba(0,0,0,0.2);
+    padding: 0 5px 5px 5px;
+}
+.order-table-wrap table 
+{
+    width: 100%;
+    white-space: nowrap;
+}
+.order-table-wrap table th
+{
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 10px 0px 10px;
+    border-right: 1px solid #fff;
+}
+.order-table-wrap table th:last-child
+{
+    border: none;
+}
+.order-table-wrap table tbody
+{   
+    background: #fff;
+    border-radius: 20px;
+}
+.order-table-wrap table tbody td
+{
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right:1px solid #fff !important
+}
+.order-table-wrap table tbody td:last-child
+{
+    border: none !important;
+}
+.order-table-wrap table tbody tr:nth-child(odd) td
+{
+    background: #fff;
+}
+.order-table-wrap table tbody tr:nth-child(even) td
+{
+    background: #f7f7f7;
+}
+.order-table-wrap table tbody tr:first-child td:first-child
+{
+    border-top-left-radius: 25px;
+}
+.order-table-wrap table tbody tr:first-child td:last-child
+{
+    border-top-right-radius: 25px;
+}
+.order-table-wrap table tbody tr:last-child td:first-child
+{
+    border-bottom-left-radius: 25px;
+}
+.order-table-wrap table tbody tr:last-child td:last-child
+{
+    border-bottom-right-radius: 25px;
+}
+.new-order
+{
+    width: 144px;
+    text-align: center;
+}
+.new-order span
+{
+    float: left;
+    width: 50%;
+    padding-bottom: 10px;
+}
+.new-order span:last-child
+{
+    border-left: 1px solid #fff;
+}
+.new-order-td
+{
+    padding: 0 !important;
+}
+.new-order-td span:last-child
+{
+    border-left: 1px solid #ddd;
+}
+.new-order-td span
+{
+    float: left;
+    width: 50%;
+    padding: 20px 0px;
+    text-align: center;
+    background: rgba(190,253,190,0.7);
+    border-bottom: 1px solid #fff;
+}
+
+.recom-promot-section
+{
+    padding: 0px 40px 80px;   
+}
+.recomm-sec .table-title
+{
+    color: #EE9E00;
+}   
+.recomm-sec .order-table-wrap
+{
+    background-color: #EE9E00;
+}
+.recomm-sec table tbody tr:first-child .new-order-td span:last-child
+{
+    border-top-right-radius: 20px;
+}
+.recomm-sec table tbody tr:last-child .new-order-td span:last-child
+{
+    border-bottom-right-radius: 20px;
+}
+.other-lang-table .table-title
+{
+    color: #CF0000;
+}
+.other-lang-table .order-table-wrap
+{
+    background: #CF0000;
+}
+.other-lang-table
+{
+    margin-top: 4rem;
+    font-size: 16px !important;
+}
+.other-lang-table th
+{
+    padding: 30px 10px 15px!important;
+}
+.other-lang-table td
+{
+    padding:15px 15px
+}
+
+.total-price
+{
+    color: #fff;
+    text-align: right;
+    padding:10px 15px
+}
+.promote-table .table-title
+{
+    color: #5BA96F;
+}
+.promote-table .order-table-wrap
+{
+    background: #5BA96F;
+}
+.promote-table table tbody tr:nth-child(even) td
+{
+    background: rgba(190,253,190,0.7);
+}
+.promote-table td img
+{
+    width: 70px;
+}
+.promote-table .new-order-td span
+{
+    padding: 30px 15px;
+}
+.site-footer
+{
+    padding: 3rem 2rem;
+    background: #fff;
+}
+.footer-content
+{
+    position: relative;
+}
+.divider-one:after
+{
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: -70px;
+    width: 2px;
+    height: 200px;
+    background: #CA0005;
+}
+.divider-two:after
+{
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    width: 2px;
+    height: 200px;
+    background: #CA0005;
+}
+.divider-three:after
+{
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    width: 2px;
+    height: 200px;
+    background: #CA0005;
+}
+.footer-content P
+{
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.footer-content P:last-child
+{
+    margin-bottom: 0;
+}
+.footer-social li
+{
+    display: inline-block;
+    padding-right: 25px;
+}
+.footer-logo
+{
+    width: 70%;
+}
